@@ -7,7 +7,7 @@ DEPENDS = " libsdl2-image libsdl2-ttf virtual/libsdl2 ttf-abyssinica"
 S = "${WORKDIR}/git/sdl-game-test"
 
 SRC_URI = " \
-    git://github.com/MarcinHajkowski/dac-examples-src.git;protocol=http;branch=master;rev=1dc41089df1371050b6973a1ecee7d5b700c7c23"
+    git://github.com/stagingrdkm/dac-examples-src.git;protocol=http;branch=master;rev=778d8f6b6756ea04c179281f2b4000c95749c133"
 
 
 inherit autotools pkgconfig
